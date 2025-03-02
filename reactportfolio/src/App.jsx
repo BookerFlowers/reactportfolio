@@ -7,7 +7,6 @@ import {
 // import { createRoot } from 'react-dom/client'
 
 import RootLayout from './layouts/Rootlayout'
-import NavBar from './Components/NavBar'
 import Home from './Pages/Home'
 import Projects from './Pages/Projects'
 import Skills from './Pages/Skills'
