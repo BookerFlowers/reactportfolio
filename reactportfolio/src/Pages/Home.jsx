@@ -22,8 +22,8 @@ const Home = () => {
 
 
             </div>
-            <div className='flex items-center justify-center max-h-max max-w-max ' >
-                <div className='max-h-max max-w-max'>
+            <div className='flex items-center justify-center w-full h-full ' >
+                <div className='max-h-max max-w-max '>
                       <img src="src\assets\images\pic14.png" alt="profilePic" />
                 </div>
               
