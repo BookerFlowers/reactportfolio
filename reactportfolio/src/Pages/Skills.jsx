@@ -43,7 +43,7 @@ const Skills = () => {
                     <p></p>
                 </div>
                 <div>
-                    <img src="src\assets\images\3.png" alt="book" />
+                    <img className='w-45' src="src\assets\images\3.png" alt="book" />
                 </div>
 
 
@@ -60,12 +60,14 @@ const Skills = () => {
                     <textarea rows='4' cols='30' placeholder='enter your message here' value={message} onChange={(e) => setMessage(e.target.value)} />
                     <button className='bg-gray-800 rounded-full' onClick={handleSendEmail}>Send </button>
                     <button className='bg-gray-800 rounded-full' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
+                    {/* link to call directly to my phone component */}
+                    <div className='text-center bg-gray-800 rounded-full'>
+                        <CallLink />
+                    </div>
                 </div>
-            
-                {/* link to call directly to my phone component */}
-                <div className='text-center bg-gray-800 rounded-full'>
-                    <CallLink />
-                </div>
+
+
+
             </div>
 
 
