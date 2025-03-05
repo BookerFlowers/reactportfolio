@@ -44,6 +44,7 @@ const Skills = () => {
                 </div>
                 <div>
                     <img className='w-45' src="src\assets\images\3.png" alt="book" />
+                    
                 </div>
 
 
