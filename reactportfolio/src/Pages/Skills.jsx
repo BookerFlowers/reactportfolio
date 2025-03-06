@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import CallLink from '../Components/Call';
 
 
-
 const Skills = () => {
 
     const [message, setMessage] = useState('');
@@ -43,8 +42,8 @@ const Skills = () => {
                     <p></p>
                 </div>
                 <div>
-                    <img className='w-45' src="src\assets\images\3.png" alt="book" />
-                    
+                    <img className='w-45 animate-bounce' src="src\assets\images\3.png" alt="book" />
+                  
                 </div>
 
 
@@ -53,14 +52,14 @@ const Skills = () => {
             <div className='flex flex-row items-center justify-center'>
                 {/* link to my primary email text box should be transparent until clicked */}
                 <div className='flex flex-col gap-10'>
-                    <a href='flowersbooker2025@gmail.com'
+                    <a href='flowersbooker2025@gmail.com' className='hover:text-red-600'
                         onClick={(e) => {
                             e.preventDefault();
                             setPopupVisible(true);
                         }} > flowersbooker2025@gmail.com</a>
                     <textarea rows='4' cols='30' placeholder='enter your message here' value={message} onChange={(e) => setMessage(e.target.value)} />
-                    <button className='bg-gray-800 rounded-full' onClick={handleSendEmail}>Send </button>
-                    <button className='bg-gray-800 rounded-full' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
+                    <button className='bg-gray-800 rounded-full hover:text-red-600' onClick={handleSendEmail}>Send </button>
+                    <button className='bg-gray-800 rounded-full hover:text-red-600' style={{ marginLeft: '10px' }} onClick={() => setPopupVisible(false)}>Close</button>
                     {/* link to call directly to my phone component */}
                     <div className='text-center bg-gray-800 rounded-full'>
                         <CallLink />
