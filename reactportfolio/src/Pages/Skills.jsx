@@ -39,13 +39,24 @@ const Skills = () => {
                         <p>Express.js</p>
                     </div>
 
-                    <p></p>
+
                 </div>
                 <div>
                     <img className='w-45 animate-bounce' src="src\assets\images\3.png" alt="book" />
-                  
+
+                </div>
+                <div className='flex flex-col items-center justify-center gap-6'>
+                    <p>Communication</p>
+                    <p>Team Work</p>
+                    <p>Public Speaking</p>
+                    <p>Problem Solving</p>
+                    <p>Time Managment</p>
+                    <p>Conflict Resolution</p>
+
                 </div>
 
+            </div>
+            <div>
 
             </div>
             <h2 className='font-extrabold font-sans text-center'>Contact Me At:</h2>
