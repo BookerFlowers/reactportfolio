@@ -23,8 +23,8 @@ const Home = () => {
 
             </div>
             <div className='flex items-center justify-center h-10/12 w-10/12 ' >
-                <div className='h-10/12 w-10/12 '>
-                    <img className='h-full w-full' src="src\assets\images\pic14.png" alt="profilePic" />
+                <div className='h-5/6 w-5/6 '>
+                    <img className='h-full w-full ' src="src\assets\images\logo2.png" alt="profilePic" />
                 </div>
 
             </div>
